@@ -443,15 +443,15 @@ UICorner_20.Parent = Open
 
 -- Scripts:
 
-local function UZQASPD_fake_script() -- main.Vis 
+local function ZJFHR_fake_script() -- main.Vis 
 	local script = Instance.new('Script', main)
 
 	script.Parent.Visible = false
 	wait(0.1)
 	script:Destroy()
 end
-coroutine.wrap(UZQASPD_fake_script)()
-local function LRWAYDF_fake_script() -- Scripts.Script 
+coroutine.wrap(ZJFHR_fake_script)()
+local function FXPUELY_fake_script() -- Scripts.Script 
 	local script = Instance.new('Script', Scripts)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -462,32 +462,32 @@ local function LRWAYDF_fake_script() -- Scripts.Script
 		end
 	end)
 end
-coroutine.wrap(LRWAYDF_fake_script)()
-local function KQTCMO_fake_script() -- INf.Script 
+coroutine.wrap(FXPUELY_fake_script)()
+local function CEBXU_fake_script() -- INf.Script 
 	local script = Instance.new('Script', INf)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(KQTCMO_fake_script)()
-local function VXKB_fake_script() -- walkwalls.Script 
+coroutine.wrap(CEBXU_fake_script)()
+local function CTXNQ_fake_script() -- walkwalls.Script 
 	local script = Instance.new('Script', walkwalls)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/DanishDisaster/walkwalls/main/walkwalls.lua'),true))()
 	end)
 end
-coroutine.wrap(VXKB_fake_script)()
-local function PEEFXH_fake_script() -- XXHUB.Script 
+coroutine.wrap(CTXNQ_fake_script)()
+local function JESHXTZ_fake_script() -- XXHUB.Script 
 	local script = Instance.new('Script', XXHUB)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/YVE4njap'),true))()
 	end)
 end
-coroutine.wrap(PEEFXH_fake_script)()
-local function VXQI_fake_script() -- Settings.Script 
+coroutine.wrap(JESHXTZ_fake_script)()
+local function FCRTGEG_fake_script() -- Settings.Script 
 	local script = Instance.new('Script', Settings)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -498,9 +498,9 @@ local function VXQI_fake_script() -- Settings.Script
 		end
 	end)
 end
-coroutine.wrap(VXQI_fake_script)()
+coroutine.wrap(FCRTGEG_fake_script)()
 -- Music.Script is disabled.
-local function NPHWQ_fake_script() -- Credits.Script 
+local function WGEMRYX_fake_script() -- Credits.Script 
 	local script = Instance.new('Script', Credits)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -511,8 +511,8 @@ local function NPHWQ_fake_script() -- Credits.Script
 		end
 	end)
 end
-coroutine.wrap(NPHWQ_fake_script)()
-local function AMBVUH_fake_script() -- Backgrounds.Script 
+coroutine.wrap(WGEMRYX_fake_script)()
+local function WMUCL_fake_script() -- Backgrounds.Script 
 	local script = Instance.new('Script', Backgrounds)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -523,8 +523,8 @@ local function AMBVUH_fake_script() -- Backgrounds.Script
 		end
 	end)
 end
-coroutine.wrap(AMBVUH_fake_script)()
-local function IRVSWGF_fake_script() -- _1.Script 
+coroutine.wrap(WMUCL_fake_script)()
+local function DIMCH_fake_script() -- _1.Script 
 	local script = Instance.new('Script', _1)
 
 	local bggger = script.Parent.Parent.Parent.Parent.Parent
@@ -533,8 +533,8 @@ local function IRVSWGF_fake_script() -- _1.Script
 		bggger.Image = "1307631718"
 	end)
 end
-coroutine.wrap(IRVSWGF_fake_script)()
-local function IZVXH_fake_script() -- Close.Script 
+coroutine.wrap(DIMCH_fake_script)()
+local function OMGIWK_fake_script() -- Close.Script 
 	local script = Instance.new('Script', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -542,8 +542,8 @@ local function IZVXH_fake_script() -- Close.Script
 		script.Parent.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(IZVXH_fake_script)()
-local function GBIKYYP_fake_script() -- Minimize.Script 
+coroutine.wrap(OMGIWK_fake_script)()
+local function LGCTQ_fake_script() -- Minimize.Script 
 	local script = Instance.new('Script', Minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -552,8 +552,8 @@ local function GBIKYYP_fake_script() -- Minimize.Script
 		script.Parent.Parent.Parent.Parent.Parent.Open.Visible = true
 	end)
 end
-coroutine.wrap(GBIKYYP_fake_script)()
-local function QYQITM_fake_script() -- main.pos 
+coroutine.wrap(LGCTQ_fake_script)()
+local function GYKCB_fake_script() -- main.pos 
 	local script = Instance.new('Script', main)
 
 	local co = coroutine.create(function()
@@ -574,8 +574,8 @@ local function QYQITM_fake_script() -- main.pos
 	wait(1)
 	script:Destroy()
 end
-coroutine.wrap(QYQITM_fake_script)()
-local function EIGF_fake_script() -- main.Drag 
+coroutine.wrap(GYKCB_fake_script)()
+local function GGRRC_fake_script() -- main.Drag 
 	local script = Instance.new('LocalScript', main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -618,8 +618,8 @@ local function EIGF_fake_script() -- main.Drag
 		end
 	end)
 end
-coroutine.wrap(EIGF_fake_script)()
-local function WSAP_fake_script() -- Loading.Handeler 
+coroutine.wrap(GGRRC_fake_script)()
+local function DWSQM_fake_script() -- Loading.Handeler 
 	local script = Instance.new('Script', Loading)
 
 	local loading = coroutine.create(function()
@@ -671,16 +671,16 @@ local function WSAP_fake_script() -- Loading.Handeler
 	end)
 	coroutine.resume(loading)
 end
-coroutine.wrap(WSAP_fake_script)()
-local function MDBC_fake_script() -- Scripts_2.Vis 
+coroutine.wrap(DWSQM_fake_script)()
+local function FRAXVHP_fake_script() -- Scripts_2.Vis 
 	local script = Instance.new('Script', Scripts_2)
 
 	script.Parent.Parent.Visible = true
 	wait(0.1)
 	script:Destroy()
 end
-coroutine.wrap(MDBC_fake_script)()
-local function YOGLIAI_fake_script() -- Scripts_2.Drag 
+coroutine.wrap(FRAXVHP_fake_script)()
+local function VHMCVDM_fake_script() -- Scripts_2.Drag 
 	local script = Instance.new('LocalScript', Scripts_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -723,8 +723,8 @@ local function YOGLIAI_fake_script() -- Scripts_2.Drag
 		end
 	end)
 end
-coroutine.wrap(YOGLIAI_fake_script)()
-local function APSD_fake_script() -- Open.Script 
+coroutine.wrap(VHMCVDM_fake_script)()
+local function KNGQULT_fake_script() -- Open.Script 
 	local script = Instance.new('Script', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -733,12 +733,12 @@ local function APSD_fake_script() -- Open.Script
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(APSD_fake_script)()
-local function VLQDYNU_fake_script() -- RoseHub.Coreui 
+coroutine.wrap(KNGQULT_fake_script)()
+local function PRIQA_fake_script() -- RoseHub.Coreui 
 	local script = Instance.new('Script', RoseHub)
 
 	local parrent = script.Parent
 	parrent.Parent = game.CoreGui
 	script:Destroy()
 end
-coroutine.wrap(VLQDYNU_fake_script)()
+coroutine.wrap(PRIQA_fake_script)()
