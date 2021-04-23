@@ -18,7 +18,7 @@ local INf = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local walkwalls = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local R6 = Instance.new("TextButton")
+local XXHUB = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local Settings = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
@@ -118,7 +118,6 @@ ScriptHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScriptHub.BackgroundTransparency = 1.000
 ScriptHub.Position = UDim2.new(-0.0514705889, 0, -9.18918896, 0)
 ScriptHub.Size = UDim2.new(0, 808, 0, 334)
-ScriptHub.Visible = false
 
 INf.Name = "INf"
 INf.Parent = ScriptHub
@@ -146,18 +145,18 @@ walkwalls.TextSize = 35.000
 
 UICorner_6.Parent = walkwalls
 
-R6.Name = "R6"
-R6.Parent = ScriptHub
-R6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-R6.BackgroundTransparency = 0.800
-R6.Position = UDim2.new(0.00742574269, 0, 0.422155678, 0)
-R6.Size = UDim2.new(0, 164, 0, 45)
-R6.Font = Enum.Font.SourceSans
-R6.Text = "R6"
-R6.TextColor3 = Color3.fromRGB(255, 255, 255)
-R6.TextSize = 35.000
+XXHUB.Name = "XXHUB"
+XXHUB.Parent = ScriptHub
+XXHUB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+XXHUB.BackgroundTransparency = 0.800
+XXHUB.Position = UDim2.new(0.00742574269, 0, 0.422155678, 0)
+XXHUB.Size = UDim2.new(0, 164, 0, 45)
+XXHUB.Font = Enum.Font.SourceSans
+XXHUB.Text = "XXHUB"
+XXHUB.TextColor3 = Color3.fromRGB(255, 255, 255)
+XXHUB.TextSize = 35.000
 
-UICorner_7.Parent = R6
+UICorner_7.Parent = XXHUB
 
 Settings.Name = "Settings"
 Settings.Parent = ButtonBar
@@ -444,15 +443,15 @@ UICorner_20.Parent = Open
 
 -- Scripts:
 
-local function WBFHBS_fake_script() -- main.Vis 
+local function UZQASPD_fake_script() -- main.Vis 
 	local script = Instance.new('Script', main)
 
 	script.Parent.Visible = false
 	wait(0.1)
 	script:Destroy()
 end
-coroutine.wrap(WBFHBS_fake_script)()
-local function TSFM_fake_script() -- Scripts.Script 
+coroutine.wrap(UZQASPD_fake_script)()
+local function LRWAYDF_fake_script() -- Scripts.Script 
 	local script = Instance.new('Script', Scripts)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -463,24 +462,32 @@ local function TSFM_fake_script() -- Scripts.Script
 		end
 	end)
 end
-coroutine.wrap(TSFM_fake_script)()
-local function NVPKHP_fake_script() -- INf.Script 
+coroutine.wrap(LRWAYDF_fake_script)()
+local function KQTCMO_fake_script() -- INf.Script 
 	local script = Instance.new('Script', INf)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(NVPKHP_fake_script)()
-local function YETBW_fake_script() -- walkwalls.Script 
+coroutine.wrap(KQTCMO_fake_script)()
+local function VXKB_fake_script() -- walkwalls.Script 
 	local script = Instance.new('Script', walkwalls)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/DanishDisaster/walkwalls/main/walkwalls.lua'),true))()
 	end)
 end
-coroutine.wrap(YETBW_fake_script)()
-local function GGSIM_fake_script() -- Settings.Script 
+coroutine.wrap(VXKB_fake_script)()
+local function PEEFXH_fake_script() -- XXHUB.Script 
+	local script = Instance.new('Script', XXHUB)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/YVE4njap'),true))()
+	end)
+end
+coroutine.wrap(PEEFXH_fake_script)()
+local function VXQI_fake_script() -- Settings.Script 
 	local script = Instance.new('Script', Settings)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -491,9 +498,9 @@ local function GGSIM_fake_script() -- Settings.Script
 		end
 	end)
 end
-coroutine.wrap(GGSIM_fake_script)()
+coroutine.wrap(VXQI_fake_script)()
 -- Music.Script is disabled.
-local function BJAFLSO_fake_script() -- Credits.Script 
+local function NPHWQ_fake_script() -- Credits.Script 
 	local script = Instance.new('Script', Credits)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -504,8 +511,8 @@ local function BJAFLSO_fake_script() -- Credits.Script
 		end
 	end)
 end
-coroutine.wrap(BJAFLSO_fake_script)()
-local function LFBXITG_fake_script() -- Backgrounds.Script 
+coroutine.wrap(NPHWQ_fake_script)()
+local function AMBVUH_fake_script() -- Backgrounds.Script 
 	local script = Instance.new('Script', Backgrounds)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -516,8 +523,8 @@ local function LFBXITG_fake_script() -- Backgrounds.Script
 		end
 	end)
 end
-coroutine.wrap(LFBXITG_fake_script)()
-local function IKOAO_fake_script() -- _1.Script 
+coroutine.wrap(AMBVUH_fake_script)()
+local function IRVSWGF_fake_script() -- _1.Script 
 	local script = Instance.new('Script', _1)
 
 	local bggger = script.Parent.Parent.Parent.Parent.Parent
@@ -526,8 +533,8 @@ local function IKOAO_fake_script() -- _1.Script
 		bggger.Image = "1307631718"
 	end)
 end
-coroutine.wrap(IKOAO_fake_script)()
-local function CYLITA_fake_script() -- Close.Script 
+coroutine.wrap(IRVSWGF_fake_script)()
+local function IZVXH_fake_script() -- Close.Script 
 	local script = Instance.new('Script', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -535,8 +542,8 @@ local function CYLITA_fake_script() -- Close.Script
 		script.Parent.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(CYLITA_fake_script)()
-local function LSWIZ_fake_script() -- Minimize.Script 
+coroutine.wrap(IZVXH_fake_script)()
+local function GBIKYYP_fake_script() -- Minimize.Script 
 	local script = Instance.new('Script', Minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -545,8 +552,8 @@ local function LSWIZ_fake_script() -- Minimize.Script
 		script.Parent.Parent.Parent.Parent.Parent.Open.Visible = true
 	end)
 end
-coroutine.wrap(LSWIZ_fake_script)()
-local function UDHPTC_fake_script() -- main.pos 
+coroutine.wrap(GBIKYYP_fake_script)()
+local function QYQITM_fake_script() -- main.pos 
 	local script = Instance.new('Script', main)
 
 	local co = coroutine.create(function()
@@ -567,8 +574,8 @@ local function UDHPTC_fake_script() -- main.pos
 	wait(1)
 	script:Destroy()
 end
-coroutine.wrap(UDHPTC_fake_script)()
-local function XUGVC_fake_script() -- main.Drag 
+coroutine.wrap(QYQITM_fake_script)()
+local function EIGF_fake_script() -- main.Drag 
 	local script = Instance.new('LocalScript', main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -611,8 +618,8 @@ local function XUGVC_fake_script() -- main.Drag
 		end
 	end)
 end
-coroutine.wrap(XUGVC_fake_script)()
-local function HUAG_fake_script() -- Loading.Handeler 
+coroutine.wrap(EIGF_fake_script)()
+local function WSAP_fake_script() -- Loading.Handeler 
 	local script = Instance.new('Script', Loading)
 
 	local loading = coroutine.create(function()
@@ -664,16 +671,16 @@ local function HUAG_fake_script() -- Loading.Handeler
 	end)
 	coroutine.resume(loading)
 end
-coroutine.wrap(HUAG_fake_script)()
-local function GPZO_fake_script() -- Scripts_2.Vis 
+coroutine.wrap(WSAP_fake_script)()
+local function MDBC_fake_script() -- Scripts_2.Vis 
 	local script = Instance.new('Script', Scripts_2)
 
 	script.Parent.Parent.Visible = true
 	wait(0.1)
 	script:Destroy()
 end
-coroutine.wrap(GPZO_fake_script)()
-local function XSVETN_fake_script() -- Scripts_2.Drag 
+coroutine.wrap(MDBC_fake_script)()
+local function YOGLIAI_fake_script() -- Scripts_2.Drag 
 	local script = Instance.new('LocalScript', Scripts_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -716,8 +723,8 @@ local function XSVETN_fake_script() -- Scripts_2.Drag
 		end
 	end)
 end
-coroutine.wrap(XSVETN_fake_script)()
-local function AMQXCL_fake_script() -- Open.Script 
+coroutine.wrap(YOGLIAI_fake_script)()
+local function APSD_fake_script() -- Open.Script 
 	local script = Instance.new('Script', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -726,12 +733,12 @@ local function AMQXCL_fake_script() -- Open.Script
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(AMQXCL_fake_script)()
-local function ATRARUR_fake_script() -- RoseHub.Coreui 
+coroutine.wrap(APSD_fake_script)()
+local function VLQDYNU_fake_script() -- RoseHub.Coreui 
 	local script = Instance.new('Script', RoseHub)
 
 	local parrent = script.Parent
 	parrent.Parent = game.CoreGui
 	script:Destroy()
 end
-coroutine.wrap(ATRARUR_fake_script)()
+coroutine.wrap(VLQDYNU_fake_script)()
