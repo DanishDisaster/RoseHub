@@ -543,7 +543,7 @@ end
 
 -- Scripts:
 
-local function ABAD_fake_script() -- main.Vis 
+local function PMJW_fake_script() -- main.Vis 
 	local script = Instance.new('Script', main)
 	local req = require
 	local require = function(obj)
@@ -558,8 +558,8 @@ local function ABAD_fake_script() -- main.Vis
 	wait(0.1)
 	script:Destroy()
 end
-coroutine.wrap(ABAD_fake_script)()
-local function FSUGD_fake_script() -- Scripts.Script 
+coroutine.wrap(PMJW_fake_script)()
+local function NZFEBA_fake_script() -- Scripts.Script 
 	local script = Instance.new('Script', Scripts)
 	local req = require
 	local require = function(obj)
@@ -578,8 +578,8 @@ local function FSUGD_fake_script() -- Scripts.Script
 		end
 	end)
 end
-coroutine.wrap(FSUGD_fake_script)()
-local function HDQR_fake_script() -- INf.Script 
+coroutine.wrap(NZFEBA_fake_script)()
+local function RXDRA_fake_script() -- INf.Script 
 	local script = Instance.new('Script', INf)
 	local req = require
 	local require = function(obj)
@@ -596,8 +596,8 @@ local function HDQR_fake_script() -- INf.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(HDQR_fake_script)()
-local function LCUKRL_fake_script() -- INf.Sound 
+coroutine.wrap(RXDRA_fake_script)()
+local function OITRHTA_fake_script() -- INf.Sound 
 	local script = Instance.new('LocalScript', INf)
 	local req = require
 	local require = function(obj)
@@ -613,8 +613,8 @@ local function LCUKRL_fake_script() -- INf.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(LCUKRL_fake_script)()
-local function TQRDQ_fake_script() -- walkwalls.Script 
+coroutine.wrap(OITRHTA_fake_script)()
+local function RLKQOWK_fake_script() -- walkwalls.Script 
 	local script = Instance.new('Script', walkwalls)
 	local req = require
 	local require = function(obj)
@@ -631,8 +631,8 @@ local function TQRDQ_fake_script() -- walkwalls.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/DanishDisaster/walkwalls/main/walkwalls.lua'),true))()
 	end)
 end
-coroutine.wrap(TQRDQ_fake_script)()
-local function IGZSGY_fake_script() -- walkwalls.Sound 
+coroutine.wrap(RLKQOWK_fake_script)()
+local function MRIEK_fake_script() -- walkwalls.Sound 
 	local script = Instance.new('LocalScript', walkwalls)
 	local req = require
 	local require = function(obj)
@@ -648,8 +648,8 @@ local function IGZSGY_fake_script() -- walkwalls.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(IGZSGY_fake_script)()
-local function ZAEM_fake_script() -- XXHUB.Script 
+coroutine.wrap(MRIEK_fake_script)()
+local function RAHTF_fake_script() -- XXHUB.Script 
 	local script = Instance.new('Script', XXHUB)
 	local req = require
 	local require = function(obj)
@@ -666,8 +666,8 @@ local function ZAEM_fake_script() -- XXHUB.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/YVE4njap'),true))()
 	end)
 end
-coroutine.wrap(ZAEM_fake_script)()
-local function PMAEJFK_fake_script() -- XXHUB.Sound 
+coroutine.wrap(RAHTF_fake_script)()
+local function ELNVEEK_fake_script() -- XXHUB.Sound 
 	local script = Instance.new('LocalScript', XXHUB)
 	local req = require
 	local require = function(obj)
@@ -683,8 +683,8 @@ local function PMAEJFK_fake_script() -- XXHUB.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(PMAEJFK_fake_script)()
-local function LUMZ_fake_script() -- pageup.Script 
+coroutine.wrap(ELNVEEK_fake_script)()
+local function RVYE_fake_script() -- pageup.Script 
 	local script = Instance.new('Script', pageup)
 	local req = require
 	local require = function(obj)
@@ -701,8 +701,8 @@ local function LUMZ_fake_script() -- pageup.Script
 	end)
 	
 end
-coroutine.wrap(LUMZ_fake_script)()
-local function MTZQ_fake_script() -- pageup.Sound 
+coroutine.wrap(RVYE_fake_script)()
+local function ZDXDR_fake_script() -- pageup.Sound 
 	local script = Instance.new('LocalScript', pageup)
 	local req = require
 	local require = function(obj)
@@ -718,8 +718,8 @@ local function MTZQ_fake_script() -- pageup.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(MTZQ_fake_script)()
-local function HRPFO_fake_script() -- down.Script 
+coroutine.wrap(ZDXDR_fake_script)()
+local function BWCXRV_fake_script() -- down.Script 
 	local script = Instance.new('Script', down)
 	local req = require
 	local require = function(obj)
@@ -736,8 +736,8 @@ local function HRPFO_fake_script() -- down.Script
 	end)
 	
 end
-coroutine.wrap(HRPFO_fake_script)()
-local function AFCBHAC_fake_script() -- down.Sound 
+coroutine.wrap(BWCXRV_fake_script)()
+local function TNWOL_fake_script() -- down.Sound 
 	local script = Instance.new('LocalScript', down)
 	local req = require
 	local require = function(obj)
@@ -753,8 +753,8 @@ local function AFCBHAC_fake_script() -- down.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(AFCBHAC_fake_script)()
-local function TOJGJ_fake_script() -- Scripts.Sound 
+coroutine.wrap(TNWOL_fake_script)()
+local function JNIV_fake_script() -- Scripts.Sound 
 	local script = Instance.new('LocalScript', Scripts)
 	local req = require
 	local require = function(obj)
@@ -770,8 +770,8 @@ local function TOJGJ_fake_script() -- Scripts.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(TOJGJ_fake_script)()
-local function DSGW_fake_script() -- Settings.Script 
+coroutine.wrap(JNIV_fake_script)()
+local function GMVHZJ_fake_script() -- Settings.Script 
 	local script = Instance.new('Script', Settings)
 	local req = require
 	local require = function(obj)
@@ -790,8 +790,8 @@ local function DSGW_fake_script() -- Settings.Script
 		end
 	end)
 end
-coroutine.wrap(DSGW_fake_script)()
-local function ONGI_fake_script() -- Music.Script 
+coroutine.wrap(GMVHZJ_fake_script)()
+local function QYABG_fake_script() -- Music.Script 
 	local script = Instance.new('Script', Music)
 	local req = require
 	local require = function(obj)
@@ -814,8 +814,8 @@ local function ONGI_fake_script() -- Music.Script
 		end
 	end)
 end
-coroutine.wrap(ONGI_fake_script)()
-local function GTVJE_fake_script() -- MusicMakers.Song maker 
+coroutine.wrap(QYABG_fake_script)()
+local function WSXRAY_fake_script() -- MusicMakers.Lofi 1 
 	local script = Instance.new('Script', MusicMakers)
 	local req = require
 	local require = function(obj)
@@ -834,8 +834,29 @@ local function GTVJE_fake_script() -- MusicMakers.Song maker
 	
 	script:Destroy()
 end
-coroutine.wrap(GTVJE_fake_script)()
-local function PBBAUX_fake_script() -- Music.Player 
+coroutine.wrap(WSXRAY_fake_script)()
+local function KSPCZPZ_fake_script() -- MusicMakers.Lofi 2 
+	local script = Instance.new('Script', MusicMakers)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local Song = Instance.new("Sound")
+	Song.Name = "Lofi1"
+	Song.SoundId = "rbxassetid://6347700830"
+	Song.Volume = 1
+	Song.TimePosition = "3"
+	Song.Parent = script.Parent.Parent.Music
+	
+	script:Destroy()
+end
+coroutine.wrap(KSPCZPZ_fake_script)()
+local function AIHXTX_fake_script() -- Music.Player 
 	local script = Instance.new('LocalScript', Music)
 	local req = require
 	local require = function(obj)
@@ -869,8 +890,8 @@ local function PBBAUX_fake_script() -- Music.Player
 		wait(randomtrack.TimeLength)
 	end
 end
-coroutine.wrap(PBBAUX_fake_script)()
-local function RGUX_fake_script() -- Settings.Sound 
+coroutine.wrap(AIHXTX_fake_script)()
+local function GPYY_fake_script() -- Settings.Sound 
 	local script = Instance.new('LocalScript', Settings)
 	local req = require
 	local require = function(obj)
@@ -886,8 +907,8 @@ local function RGUX_fake_script() -- Settings.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(RGUX_fake_script)()
-local function QAPSE_fake_script() -- Credits.Script 
+coroutine.wrap(GPYY_fake_script)()
+local function WDKX_fake_script() -- Credits.Script 
 	local script = Instance.new('Script', Credits)
 	local req = require
 	local require = function(obj)
@@ -906,8 +927,8 @@ local function QAPSE_fake_script() -- Credits.Script
 		end
 	end)
 end
-coroutine.wrap(QAPSE_fake_script)()
-local function OBBMHF_fake_script() -- Credits.Sound 
+coroutine.wrap(WDKX_fake_script)()
+local function QFYYET_fake_script() -- Credits.Sound 
 	local script = Instance.new('LocalScript', Credits)
 	local req = require
 	local require = function(obj)
@@ -923,8 +944,8 @@ local function OBBMHF_fake_script() -- Credits.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(OBBMHF_fake_script)()
-local function RYGNWZN_fake_script() -- Backgrounds.Script 
+coroutine.wrap(QFYYET_fake_script)()
+local function MASLHX_fake_script() -- Backgrounds.Script 
 	local script = Instance.new('Script', Backgrounds)
 	local req = require
 	local require = function(obj)
@@ -943,8 +964,8 @@ local function RYGNWZN_fake_script() -- Backgrounds.Script
 		end
 	end)
 end
-coroutine.wrap(RYGNWZN_fake_script)()
-local function TTXIL_fake_script() -- _1.Script 
+coroutine.wrap(MASLHX_fake_script)()
+local function TXLZTKP_fake_script() -- _1.Script 
 	local script = Instance.new('Script', _1)
 	local req = require
 	local require = function(obj)
@@ -961,8 +982,8 @@ local function TTXIL_fake_script() -- _1.Script
 		bggger.Image = "1307631718"
 	end)
 end
-coroutine.wrap(TTXIL_fake_script)()
-local function EABWHU_fake_script() -- _1.Sound 
+coroutine.wrap(TXLZTKP_fake_script)()
+local function OOIUSHX_fake_script() -- _1.Sound 
 	local script = Instance.new('LocalScript', _1)
 	local req = require
 	local require = function(obj)
@@ -978,8 +999,8 @@ local function EABWHU_fake_script() -- _1.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(EABWHU_fake_script)()
-local function HQUUOW_fake_script() -- Backgrounds.Sound 
+coroutine.wrap(OOIUSHX_fake_script)()
+local function JPLN_fake_script() -- Backgrounds.Sound 
 	local script = Instance.new('LocalScript', Backgrounds)
 	local req = require
 	local require = function(obj)
@@ -995,8 +1016,8 @@ local function HQUUOW_fake_script() -- Backgrounds.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(HQUUOW_fake_script)()
-local function XFDCYYG_fake_script() -- Close.Script 
+coroutine.wrap(JPLN_fake_script)()
+local function ATIXT_fake_script() -- Close.Script 
 	local script = Instance.new('Script', Close)
 	local req = require
 	local require = function(obj)
@@ -1012,8 +1033,8 @@ local function XFDCYYG_fake_script() -- Close.Script
 		script.Parent.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(XFDCYYG_fake_script)()
-local function BHPMN_fake_script() -- Close.Sound 
+coroutine.wrap(ATIXT_fake_script)()
+local function BRBT_fake_script() -- Close.Sound 
 	local script = Instance.new('LocalScript', Close)
 	local req = require
 	local require = function(obj)
@@ -1029,8 +1050,8 @@ local function BHPMN_fake_script() -- Close.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(BHPMN_fake_script)()
-local function IKPBLWT_fake_script() -- Minimize.Script 
+coroutine.wrap(BRBT_fake_script)()
+local function RXZNR_fake_script() -- Minimize.Script 
 	local script = Instance.new('Script', Minimize)
 	local req = require
 	local require = function(obj)
@@ -1047,8 +1068,8 @@ local function IKPBLWT_fake_script() -- Minimize.Script
 		script.Parent.Parent.Parent.Parent.Parent.Open.Visible = true
 	end)
 end
-coroutine.wrap(IKPBLWT_fake_script)()
-local function YLDPFDY_fake_script() -- Minimize.Sound 
+coroutine.wrap(RXZNR_fake_script)()
+local function AWVYK_fake_script() -- Minimize.Sound 
 	local script = Instance.new('LocalScript', Minimize)
 	local req = require
 	local require = function(obj)
@@ -1064,8 +1085,8 @@ local function YLDPFDY_fake_script() -- Minimize.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(YLDPFDY_fake_script)()
-local function PQGSPKG_fake_script() -- main.pos 
+coroutine.wrap(AWVYK_fake_script)()
+local function ABIMFRM_fake_script() -- main.pos 
 	local script = Instance.new('Script', main)
 	local req = require
 	local require = function(obj)
@@ -1094,8 +1115,8 @@ local function PQGSPKG_fake_script() -- main.pos
 	wait(1)
 	script:Destroy()
 end
-coroutine.wrap(PQGSPKG_fake_script)()
-local function EDHFA_fake_script() -- main.Drag 
+coroutine.wrap(ABIMFRM_fake_script)()
+local function THGJB_fake_script() -- main.Drag 
 	local script = Instance.new('LocalScript', main)
 	local req = require
 	local require = function(obj)
@@ -1146,8 +1167,8 @@ local function EDHFA_fake_script() -- main.Drag
 		end
 	end)
 end
-coroutine.wrap(EDHFA_fake_script)()
-local function OKKO_fake_script() -- Loading.Handeler 
+coroutine.wrap(THGJB_fake_script)()
+local function KZHED_fake_script() -- Loading.Handeler 
 	local script = Instance.new('Script', Loading)
 	local req = require
 	local require = function(obj)
@@ -1204,8 +1225,8 @@ local function OKKO_fake_script() -- Loading.Handeler
 	
 	ui.Loading:Destroy()
 end
-coroutine.wrap(OKKO_fake_script)()
-local function TGKABAR_fake_script() -- Scripts_2.Vis 
+coroutine.wrap(KZHED_fake_script)()
+local function DGHL_fake_script() -- Scripts_2.Vis 
 	local script = Instance.new('Script', Scripts_2)
 	local req = require
 	local require = function(obj)
@@ -1220,8 +1241,8 @@ local function TGKABAR_fake_script() -- Scripts_2.Vis
 	wait(0.1)
 	script:Destroy()
 end
-coroutine.wrap(TGKABAR_fake_script)()
-local function KCNZWL_fake_script() -- Scripts_2.Drag 
+coroutine.wrap(DGHL_fake_script)()
+local function KGSRXGF_fake_script() -- Scripts_2.Drag 
 	local script = Instance.new('LocalScript', Scripts_2)
 	local req = require
 	local require = function(obj)
@@ -1272,8 +1293,8 @@ local function KCNZWL_fake_script() -- Scripts_2.Drag
 		end
 	end)
 end
-coroutine.wrap(KCNZWL_fake_script)()
-local function CUMTQ_fake_script() -- Open.Script 
+coroutine.wrap(KGSRXGF_fake_script)()
+local function YXJR_fake_script() -- Open.Script 
 	local script = Instance.new('Script', Open)
 	local req = require
 	local require = function(obj)
@@ -1290,8 +1311,8 @@ local function CUMTQ_fake_script() -- Open.Script
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(CUMTQ_fake_script)()
-local function ABTN_fake_script() -- Open.Sound 
+coroutine.wrap(YXJR_fake_script)()
+local function IXTFL_fake_script() -- Open.Sound 
 	local script = Instance.new('LocalScript', Open)
 	local req = require
 	local require = function(obj)
@@ -1307,8 +1328,8 @@ local function ABTN_fake_script() -- Open.Sound
 	end
 	script.Parent.MouseButton1Click:connect(PlaySound)
 end
-coroutine.wrap(ABTN_fake_script)()
-local function JYODM_fake_script() -- RoseHub.Coreui 
+coroutine.wrap(IXTFL_fake_script)()
+local function RZAD_fake_script() -- RoseHub.Coreui 
 	local script = Instance.new('Script', RoseHub)
 	local req = require
 	local require = function(obj)
@@ -1323,4 +1344,4 @@ local function JYODM_fake_script() -- RoseHub.Coreui
 	parrent.Parent = game.CoreGui
 	script:Destroy()
 end
-coroutine.wrap(JYODM_fake_script)()
+coroutine.wrap(RZAD_fake_script)()
